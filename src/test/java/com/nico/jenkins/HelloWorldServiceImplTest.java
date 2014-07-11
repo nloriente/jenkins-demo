@@ -9,7 +9,7 @@ public class HelloWorldServiceImplTest {
 
 	@Test
 	public void testSayHello() {
-		assertEqualz("Hello Worlds", new HelloWorldServiceImpl().sayHello());
+		assertEquals("Hello Worlds", new HelloWorldServiceImpl().sayHello());
 	}
 	
 }
