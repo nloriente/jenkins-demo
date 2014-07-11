@@ -5,11 +5,11 @@ import static org.junit.Assert.assertEquals;
 import org.junit.Test;
 
 
-public class HelloWorldServiceImplTest {
+public class HelloWorldControllerTest {
 
 	@Test
 	public void testSayHello() {
-		assertEquals("Hello World", new HelloWorldServiceImpl().sayHello());
+		assertEquals("Hello World!", new HelloWorldController().sayHello());
 	}
 	
 }
