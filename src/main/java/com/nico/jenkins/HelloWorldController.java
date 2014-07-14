@@ -18,7 +18,7 @@ public class HelloWorldController {
 	@ResponseBody
 	public String sayHello() {
 		logger.info("Hello World Controller");
-		return "Hello World!";
+		return "Hello World of Jenkins!";
 	}
 	
 }
